@@ -1,0 +1,253 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/guide/guide",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "引导页",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "登录/注册",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+		}
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/IP/IP",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "IP端口号设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/allserve",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/userset",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/nickName",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改昵称",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/tel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/email",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改邮箱",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/sex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改性别",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/head",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/pwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user_order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/newsCmd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部评论",
+                "enablePullDownRefresh": false
+            }
+        }
+       
+        ,{
+            "path" : "pages/allserve/park/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/traffic/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/outpatient/hospitalList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "门诊预约",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/job/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找工作",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/park/park",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/park/parkDesc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list":[{
+		"pagePath": "pages/home/home",
+		"iconPath": "static/icon/home.png",
+		"text": "首页"
+		},{
+		"pagePath": "pages/allserve/allserve",
+		"iconPath": "static/icon/allserve.png",
+		"text": "全部服务"
+		},{
+		"pagePath": "pages/news/news",
+		"iconPath": "static/icon/news2.png",
+		"text": "新闻"
+		},{
+		"pagePath": "pages/user/user",
+		"iconPath": "static/icon/user.png",
+		"text": "个人中心"	
+		}
+		]
+	}
+}
