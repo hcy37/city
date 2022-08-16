@@ -1,15 +1,3 @@
-// export default{
-// 	//获取数据
-// 	getData(url,){
-// 		uni.request({
-// 			url:state.state.baseUrl+step.url,
-// 			success:res=>{
-// 				step.msg=res.data.rows.slice(0,5)
-// 				console.log(step.msg);
-// 			}
-// 		})
-// 	}
-// }
 export default {
 	get(url,data) {
 		let token =  uni.getStorageSync('token');

@@ -46,6 +46,7 @@
 </template>
 
 <script>
+	import api from '@/common/apiUtil.js'
 	export default {
 		data() {
 			return {
@@ -64,6 +65,15 @@
 			}
 		},
 		methods:{
+			setUser(){
+				this.$get(api.GET_USER_INFO)
+				.then(res=>{
+					uni.setStorage({
+						key:'info',
+						data:JSON.stringify(res.user)
+					})
+				})
+			},
 			toReg(){
 				this.flag=!this.flag
 			},
@@ -90,7 +100,7 @@
 					key:'token',
 					data:res.data.token,
 					success:res=>{
-						console.log('本地存储成功');
+						this.setUser()
 					}
 				})
 				uni.switchTab({

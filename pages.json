@@ -220,6 +220,78 @@
             }
             
         }
+        ,{
+            "path" : "pages/allserve/outpatient/hospitalDesc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医院详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/outpatient/personList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "就诊人卡片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/outpatient/addperson",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增就诊人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/outpatient/registration",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约挂号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/outpatient/appointmentConfirm",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约确定单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/outpatient/appointmentResult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约历史",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/job/resumeManage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人简历管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allserve/job/jobDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "职位详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

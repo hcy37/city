@@ -1,17 +1,6 @@
 <template>
 	<view class="">
-		<scroll-view scroll-x="true">
-			<view class="item1">
-				asdas
-			</view>
-			<view class="item2">
-				dasda
-			</view>
-			<view class="item3">
-				asdasdas
-			</view>
-		</scroll-view>
-		<img src="http://172.18.11.250:10001/prod-api/profile/upload//2021/05/17/d4ae4440-0599-42b9-a9bf-ee28c23be0e0.jpg">
+		<input type="text" v-model="msg" placeholder="msg">
 	</view>
 </template>
 
@@ -19,11 +8,17 @@
 	export default {
 		data() {
 			return {
-				href: 'https://uniapp.dcloud.io/component/README?id=uniui'
+				msg:''
 			}
 		},
 		methods: {
 
+		},
+		onLoad() {
+			uni.$on('cardInfo',res=>{
+				this.msg=res.data.id
+				console.log(res.data.id);
+			})
 		}
 	}
 </script>

@@ -1,4 +1,3 @@
-
 var ip = '172.18.11.250:10001'
 var baseUrl = 'http://'+ip;
 

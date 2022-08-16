@@ -12,7 +12,7 @@
 				推荐服务
 			</view>
 			<ul>
-				<li v-for="(item,index) in serveList" :key="index">
+				<li v-for="(item,index) in serveList" :key="index" @click='toserve(item.link)'>
 					<view class="img">
 						<image :src="$store.state.baseUrl+item.imgUrl" mode=""></image>
 					</view>
@@ -78,6 +78,7 @@
 			}
 		},
 		methods:{
+			
 			all(){
 				this.getServicelist()
 				this.getTopicList()
@@ -87,6 +88,18 @@
 				this.$get(api.HOME_SERVICE).then(res => {
 					this.serveList = res.rows.slice(0,5);
 				})
+			},
+			toserve(link){
+				uni.navigateTo({
+					url:"../allserve/"+link,
+					fail:res=>{
+						uni.showToast({
+							title:'页面正在维修~！',
+							icon:'none'
+						})
+					}
+				})
+				
 			},
 			getTopicList(){
 				this.$get(api.GET_TOPIC_LIST).then(res=>{
